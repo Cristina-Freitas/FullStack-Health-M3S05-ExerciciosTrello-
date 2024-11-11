@@ -74,4 +74,8 @@ public class ConsultaService {
     }
 
 
+    public void deletarConsulta(long l) {
+        consultaRepository.deleteById(l);
+
+    }
 }
